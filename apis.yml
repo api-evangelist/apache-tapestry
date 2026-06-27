@@ -42,7 +42,7 @@ apis:
         url: https://tapestry.apache.org/component-classes.html
       - type: APIReference
         url: https://tapestry.apache.org/apidocs/
-      - type: SDK
+      - type: SDKs
         url: https://search.maven.org/search?q=org.apache.tapestry
         title: Maven Java SDK
 common:
