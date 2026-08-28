@@ -7,6 +7,19 @@ description: >-
   deep IDE integration. Tapestry applications are highly testable and work well with dependency
   injection via Tapestry IoC. It is maintained by the Apache Software Foundation.
 type: Index
+deliveryModel:
+  model: open-core
+  license: Apache-2.0
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
