@@ -83,6 +83,8 @@ apis:
         url: https://search.maven.org/search?q=org.apache.tapestry
         title: Maven Java SDK
 common:
+  - type: Website
+    url: https://www.apache.org/
   - type: SecurityPolicy
     url: https://github.com/apache/tapestry-5/blob/master/SECURITY.md
   - type: CodeOfConduct
