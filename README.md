@@ -1,4 +1,4 @@
-# Apache Tapestry (apache-tapestry)
+# Apache Tapestry
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,77 +64,106 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Apache Tapestry is a component-oriented framework for creating highly scalable web applications in Java. It provides live class reloading, built-in Ajax support, type-safe URL generation, and a powerful IoC container.
+Apache Tapestry is a component-oriented framework for creating highly scalable web applications in Java. It provides a component-based development model with live class reloading, built-in Ajax support, type-safe URL generation, strong convention-over-configuration principles, and deep IDE integration. Tapestry applications are highly testable and work well with dependency injection via Tapestry IoC. It is maintained by the Apache Software Foundation.
 
-**URL:** [https://tapestry.apache.org/](https://tapestry.apache.org/)
+**Areas:** Component-Based · Java · Web Applications · Web Framework · Open Source · AJAX
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## Apache Tapestry on APIs.io
 
-## Tags:
+Everything profiled for Apache Tapestry is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/apache-tapestry/](https://apis.io/providers/apache-tapestry/)** — or go straight to one of the APIs or properties below.
 
- - Component-Based, Java, Web Applications, Web Framework, Open Source, Ajax
+### APIs (1)
 
-## Timestamps
+- [Apache Tapestry Component API](https://apis.io/apis/apache-tapestry/apache-tapestry-component-api/) — The Tapestry Component API provides Java annotations and interfaces for building reusable web components. Components are defined by a Java class and an HTML…
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### Apache Tapestry Component API
-Java annotations and interfaces for building reusable web components with @Component, @Property, @Parameter, and @OnEvent annotations for wiring, event handling, and page navigation.
+#### Security (2)
 
-**Human URL:** [https://tapestry.apache.org/component-classes.html](https://tapestry.apache.org/component-classes.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Apache Tapestry Domain Security](https://apis.io/security/apache-tapestry/apache-tapestry-domain-security/)
+- [Apache Tapestry Vulnerability Disclosure](https://apis.io/security/apache-tapestry/apache-tapestry-vulnerability-disclosure/)
 
- - Java, Components, Web Framework, Ajax
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://tapestry.apache.org/component-classes.html)
-- [APIReference](https://tapestry.apache.org/apidocs/)
-- [Maven Java SDK](https://search.maven.org/search?q=org.apache.tapestry)
+- [Apache Tapestry Plans Pricing](https://apis.io/plans/apache-tapestry/apache-tapestry-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [GitHubRepository](https://github.com/apache/tapestry-5)
+Published request limits.
+
+- [Apache Tapestry Rate Limits](https://apis.io/rate-limits/apache-tapestry/apache-tapestry-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Apache Tapestry Finops](https://apis.io/finops/apache-tapestry/apache-tapestry-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.apache.org/)
 - [Documentation](https://tapestry.apache.org/documentation.html)
-- [Portal](https://tapestry.apache.org/)
-- [GettingStarted](https://tapestry.apache.org/getting-started.html)
-- [ReleaseNotes](https://github.com/apache/tapestry-5/releases)
+- [Getting started](https://tapestry.apache.org/getting-started.html)
 - [Support](https://tapestry.apache.org/community.html)
-- [TermsOfService](https://www.apache.org/licenses/)
+- [Terms of service](https://www.apache.org/licenses/)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Live Class Reloading | Hot class reloading during development without server restart. |
-| Component Model | Pure component-based development with isolated state and event handling. |
-| Tapestry IoC | Built-in inversion of control container with service binding and decoration. |
-| Ajax Support | Built-in Zone components for partial page updates and Ajax event handling. |
-| Type-Safe URLs | Type-safe URL generation with automatic parameter encoding. |
-| Asset Pipeline | Automatic asset minification, versioning, and CDN support. |
+**Kin Score 25.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 18.4 |
 
-| Name | Description |
-|------|-------------|
-| Enterprise Java Web Applications | Large-scale enterprise applications with reusable component libraries. |
-| Form-Heavy Applications | Complex data entry applications with server-side validation. |
-| Single-Page Application Backends | Ajax-driven UIs with partial page updates via Zone components. |
+**Agent readiness 0.6** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| Spring Framework | Spring IoC integration for service injection into Tapestry pages. |
-| Hibernate | Hibernate ORM integration for database access from Tapestry pages. |
-| JPA | JPA integration module for entity management in Tapestry applications. |
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/apache-tapestry/](https://apis.io/providers/apache-tapestry/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** info@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Apache Tapestry: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/apache-tapestry/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
